@@ -7,7 +7,6 @@ from livekit.agents import (
     Agent,
     AgentServer,
     AgentSession,
-    ImageContent,
     JobContext,
     RunContext,
     TurnHandlingOptions,
@@ -16,6 +15,7 @@ from livekit.agents import (
     inference,
     room_io,
 )
+from livekit.agents.llm import ImageContent
 from livekit.plugins import ai_coustics
 
 load_dotenv()
